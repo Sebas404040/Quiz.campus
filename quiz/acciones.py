@@ -1,13 +1,12 @@
 def definir_gemelo():
     global limite
     gemelos= []
-    numeros=[]
     limite=int(input("ingrese hasta que numero primo quiere llegar"))
-    espacio=1 
-    for k in range(espacio):
-        for i in range(2, limite):
-            if i % 2 !=0:
-                gemelos[k]=numeros[i]
+    print ("numeros primos:")
+    for i in range (2, limite):
+         if i % 2 != 0:
+              print (i)
+    
             
 
 

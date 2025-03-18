@@ -1,4 +1,4 @@
-from quiz.acciones import definir_gemelo, definir_palindromo
+from acciones import definir_gemelo, definir_palindromo
 def menu():
     while True:
         print ("MENU PRINCIPAL")
